@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heaviest Birds</title>
+</head>
+
+<body>
+    <h1>Heaviest Birds</h1>
+    <table>
+        <!-- theader: header-->
+        <thead>
+            <!-- tr: table row-->
+            <tr>
+                <!-- th: table header cell-->
+                <th>Animal</th>
+                <th>Average mass (lb)</th>
+                <th>Maximum Mass(lb)</th>
+                <th>Flighted</th>
+            </tr>
+        </thead>
+        <!-- tbody: content of the dataset also known as body-->
+        <tbody>
+            <tr>
+                <!-- td: table data cell-->
+                <td>Ostrich</td>
+                <td>230</td>
+                <td>260</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>200</td>
+                <td>237</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Andean Condor</td>
+                <td>25</td>
+                <td>33</td>
+                <td>Yes</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <!-- not compatible to this use case, but it can be used for totals for example-->
+        </tfoot>
+    </table>
+
+    <h2>Version 2 with colspan and rowspan</h2>
+
+    <table>
+        <!-- theader: header-->
+        <thead>
+            <!-- tr: table row-->
+            <tr>
+                <!-- th: table header cell-->
+                <th rowspan="2">Animal</th>
+                <th colspan="2">Average mass</th>
+                <th rowspan="2">Flighted</th>
+            </tr>
+            <tr>
+                <th>kg</th>
+                <th>lb</th>
+            </tr>
+        </thead>
+        <!-- tbody: content of the dataset also known as body-->
+        <tbody>
+            <tr>
+                <!-- td: table data cell-->
+                <td>Ostrich</td>
+                <td>140</td>
+                <td>230</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Somali Ostrich</td>
+                <td>90</td>
+                <td>200</td>
+                <td>No</td>
+            </tr>
+            <tr>
+                <td>Andean Condor</td>
+                <td>25</td>
+                <td>55</td>
+                <td>Yes</td>
+            </tr>
+
+        </tbody>
+        <tfoot>
+            <!-- not compatible to this use case, but it can be used for totals for example-->
+        </tfoot>
+    </table>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Subscription</th>
+                <th>Price</th>
+                <th>Support</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Free</td>
+                <td>Free</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Personal</td>
+                <td>$9.99</td>
+                <td>Weekdays</td>
+            </tr>
+            <tr>
+                <td>Business</td>
+                <td>$49.99</td>
+                <td>24/7</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+
+</html>
