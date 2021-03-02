@@ -1,0 +1,26 @@
+input[type="text"]:nth-of-type(2n){
+    border:2px solid red;
+}
+/* En este caso lo que pasa es que los segundos 
+input type text van a tener un borde rojo quedando:
+input | input rojo | input | input rojo | input*/
+/* Formato de los css
+selector {
+    property: value
+}
+*/
+/** https://developer.mozilla.org/en-US/docs/Web/CSS tiene toda la info*/
+h2{
+    color: teal;
+    /*background-color: plum;*/
+    background-color: rgb(89,151,0); /*greenish custom color*/
+}
+
+button{
+    color: palevioletred;
+    background-color: cyan;
+}
+
+p{
+    color: olive;
+}
